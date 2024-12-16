@@ -9,7 +9,7 @@
 <body>
     <main>
         <h1>Informe seu salário</h1>
-        <form action="<?= $_SERVER['PHP_SELF'] ?>">
+        <form action="<?= $_SERVER['PHP_SELF'] ?>z">
             <label for="salario">Salário (R$)</label>
             <input type="number" name="salario" id="salario" step="0.01">
             <p>Considerando o salário mínimo de <strong>R$ 1.380,00</strong></p>
